@@ -1,27 +1,27 @@
-# Hospital API
+# Hospital API 🏥
 
-API de gestión de hospitales con Entity Framework y C#, para administrar departamentos, pacientes, médicos, laboratorios, empleados, tratamientos, medicamentos, citas, facturas, hospitalizaciones, cirugías, resultados de laboratorio, prescripciones y pagos.
+API for hospital management using Entity Framework and C#, to manage departments, patients, doctors, laboratories, employees, treatments, medications, appointments, invoices, hospitalizations, surgeries, lab results, prescriptions, and payments.
 
-## Tabla de Contenidos
+## Table of Contents 📔
 
-- [Características](#características)
-- [Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [Estructura de la Base de Datos](#estructura-de-la-base-de-datos)
-- [Instalación](#instalación)
-- [Uso](#uso)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Database Structure](#database-structure)
+- [Installation](#installation)
+- [Usage](#usage)
 - [Endpoints](#endpoints)
-- [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Características
+## Features ✨
 
-- Gestión completa de hospitales y personal médico.
-- Registro y seguimiento detallado de pacientes.
-- Administración eficiente de citas y tratamientos.
-- Integración con sistemas de laboratorio y resultados médicos.
-- Facturación y gestión de pagos automatizada.
+- Comprehensive management of hospitals and medical staff.
+- Detailed registration and tracking of patients.
+- Efficient administration of appointments and treatments.
+- Integration with laboratory systems and medical results.
+- Automated billing and payment management.
 
-## Tecnologías Utilizadas
+## Technologies Used ♟
 
 - C#
 - .NET
@@ -29,91 +29,95 @@ API de gestión de hospitales con Entity Framework y C#, para administrar depart
 - SQL Server
 - ASP.NET Core
 
-## Estructura de la Base de Datos
+## Database Structure 💎
 
-La base de datos incluye las siguientes tablas:
+The database includes the following tables:
 
-1. **Departamentos**
-2. **Pacientes**
-3. **Medicos**
-4. **Laboratorios**
-5. **Empleados**
-6. **Tratamientos**
-7. **Medicamentos**
-8. **Citas**
-9. **Facturas**
-10. **Hospitalizaciones**
-11. **Cirugías**
-12. **ResultadosLaboratorio**
-13. **Prescripciones**
-14. **Pagos**
+1. **Departments**
+2. **Patients**
+3. **Doctors**
+4. **Laboratories**
+5. **Employees**
+6. **Treatments**
+7. **Medications**
+8. **Appointments**
+9. **Invoices**
+10. **Hospitalizations**
+11. **Surgeries**
+12. **LabResults**
+13. **Prescriptions**
+14. **Payments**
 
-## Instalación
+## Installation 🛠
 
-Para instalar y ejecutar este proyecto en tu máquina local, sigue estos pasos:
+To install and run this project on your local machine, follow these steps:
 
-1. Clona el repositorio:
+1. Clone the repository:
     ```bash
-    git clone https://github.com/tuusuario/hospital-api.git
+    git clone https://github.com/yourusername/hospital-api.git
     ```
 
-2. Navega al directorio del proyecto:
+2. Navigate to the project directory:
     ```bash
     cd hospital-api
     ```
 
-3. Restaura los paquetes de NuGet:
+3. Restore NuGet packages:
     ```bash
     dotnet restore
     ```
 
-4. Configura la cadena de conexión a tu base de datos en el archivo `appsettings.json`.
+4. Configure the connection string to your database in the `appsettings.json` file.
 
-5. Aplica las migraciones para crear la base de datos:
+5. Apply migrations to create the database:
     ```bash
     dotnet ef database update
     ```
 
-6. Ejecuta la aplicación:
+6. Run the application:
     ```bash
     dotnet run
     ```
 
-## Uso
+## Usage 🐱‍👤
 
-Una vez que la aplicación esté en ejecución, puedes acceder a la API a través de `http://localhost:5000` (o el puerto configurado en tu proyecto).
+Once the application is running, you can access the API via `http://localhost:5000` (or the port configured in your project).
 
 ## Endpoints
 
-A continuación se presentan algunos de los endpoints disponibles:
+Below are some of the available endpoints:
 
-- **Departamentos**
-  - `GET /api/departamentos`
-  - `POST /api/departamentos`
-  - `GET /api/departamentos/{id}`
-  - `PUT /api/departamentos/{id}`
-  - `DELETE /api/departamentos/{id}`
+- **Departments**
+  - `GET /api/departments`
+  - `POST /api/departments`
+  - `GET /api/departments/{id}`
+  - `PUT /api/departments/{id}`
+  - `DELETE /api/departments/{id}`
 
-- **Pacientes**
-  - `GET /api/pacientes`
-  - `POST /api/pacientes`
-  - `GET /api/pacientes/{id}`
-  - `PUT /api/pacientes/{id}`
-  - `DELETE /api/pacientes/{id}`
+- **Patients**
+  - `GET /api/patients`
+  - `POST /api/patients`
+  - `GET /api/patients/{id}`
+  - `PUT /api/patients/{id}`
+  - `DELETE /api/patients/{id}`
 
-- **Medicos**
-  - `GET /api/medicos`
-  - `POST /api/medicos`
-  - `GET /api/medicos/{id}`
-  - `PUT /api/medicos/{id}`
-  - `DELETE /api/medicos/{id}`
+- **Doctors**
+  - `GET /api/doctors`
+  - `POST /api/doctors`
+  - `GET /api/doctors/{id}`
+  - `PUT /api/doctors/{id}`
+  - `DELETE /api/doctors/{id}`
 
-## Contribuciones
+## Contributing 🏆
 
-Las contribuciones son bienvenidas. Por favor, sigue estos pasos para contribuir:
+Contributions are welcome. Please follow these steps to contribute:
 
-1. Haz un fork del proyecto.
-2. Crea una nueva rama (`git checkout -b feature/nueva-caracteristica`).
-3. Realiza los cambios y haz commit (`git commit -am 'Agrega nueva característica'`).
-4. Empuja tus cambios a la rama (`git push origin feature/nueva-caracteristica`).
-5. Abre
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/new-feature`).
+3. Make your changes and commit them (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature/new-feature`).
+5. Open a pull request.
+
+## License 📏
+
+This project is licensed under the [MIT] License - see the [LICENSE.md](LICENSE.md) file for details.
