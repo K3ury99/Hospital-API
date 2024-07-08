@@ -1,0 +1,18 @@
+# Ignorar archivos de compilación y directorios
+bin/
+obj/
+
+# Ignorar archivos de usuario y configuraciones específicas
+*.user
+*.suo
+*.sln.docstates
+
+# Ignorar archivos de dependencias NuGet
+packages/
+
+# Ignorar archivos de registro y caché
+*.log
+*.cache
+
+# Ignorar archivos de compilación de Visual Studio
+.vs/
