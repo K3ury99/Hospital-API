@@ -1,5 +1,5 @@
 # Hospital API 🏥
-
+> [!NOTE]
 API for hospital management using Entity Framework and C#, to manage departments, patients, doctors, laboratories, employees, treatments, medications, appointments, invoices, hospitalizations, surgeries, lab results, prescriptions, and payments.
 
 <div style="display: flex;">
